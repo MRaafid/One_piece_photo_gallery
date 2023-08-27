@@ -1,0 +1,289 @@
+body
+    {
+        text-align: center;
+    }
+h1
+    {
+        color: navy;
+    }
+.grid_p
+    {
+        display: grid;                            
+        gap: 0.5rem 0.5rem;                            
+        grid-template-rows: repeat(32, 8rem); 
+        grid-template-columns: 1fr 1fr 1fr;     
+    }
+.grid_c1
+    {
+        background-color: chartreuse;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+.grid_c2
+    {
+        background-color: blueviolet;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 9;
+    }
+.grid_c3
+    {
+        background-color: aquamarine;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+.grid_c4
+    {
+        background-color: chocolate;
+    }
+.grid_c5
+    {
+        background-color: forestgreen;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+.grid_c6
+    {
+        background-color: deeppink;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+.grid_c7
+    {
+        background-color: crimson;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+.grid_c8
+    {
+        background-color: whitesmoke;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+.grid_c9
+    {
+        background-color: green;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 9;
+        grid-row-end: 12;
+    }
+.grid_c10
+    {
+        background-color: goldenrod;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 12;
+        grid-row-end: 15;
+    }  
+.grid_c11
+    {
+        background-color: yellowgreen;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 12;
+        grid-row-end: 15;
+    }
+.grid_c12
+    {
+        background-color: aqua;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 15;
+        grid-row-end: 17;
+    }
+.grid_c13
+    {
+        background-color: black;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 15;
+        grid-row-end: 18;
+    }
+.grid_c14
+    {
+        background-color: orchid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 12;
+        grid-row-end: 15;
+    }
+.grid_c15
+    {
+        background-color: grey;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 15;
+        grid-row-end: 17;
+    }
+.grid_c16
+    {
+        background-color: burlywood;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 17;
+        grid-row-end: 19;
+    }
+.grid_c17
+    {
+        background-color: darkblue;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 17;
+        grid-row-end: 19;
+    }
+.grid_c18
+    {
+        background-color: darkcyan;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 19;
+            grid-row-end: 21;
+    }
+.grid_c19
+    {
+        background-color: palevioletred;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 18;
+            grid-row-end: 23;
+    }
+.grid_c20
+    {
+        background-color: powderblue;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 19;
+            grid-row-end: 21;
+    }
+.grid_c21
+    {
+        background-color: powderblue;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 21;
+            grid-row-end: 23;
+    }
+.grid_c22
+    {
+        background-color: powderblue;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 21;
+            grid-row-end: 23;
+    }
+.grid_c23
+    {
+        background-color: palegreen;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 23;
+            grid-row-end: 25;
+    }
+.grid_c24
+    {
+        background-color: peru;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 23;
+            grid-row-end: 25;
+    }
+.grid_c25
+    {
+        background-color: cornflowerblue;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 23;
+            grid-row-end: 25;
+    }
+.grid_c26
+    {
+        background-color: rebeccapurple;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 25;
+            grid-row-end: 27;
+    }
+.grid_c27
+    {
+        background-color: red;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 25;
+            grid-row-end: 27;
+    }
+.grid_c28
+    {
+        background-color: powderblue;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 25;
+            grid-row-end: 27;
+    }
+.grid_c29
+    {
+        background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 27;
+            grid-row-end: 29;
+    }
+.grid_c30
+    {
+        background-color: green;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 27;
+            grid-row-end: 29;
+    }
+.grid_c31
+    {
+        background-color: yellow;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 29;
+            grid-row-end: 31;
+    }
+.grid_c32
+    {
+        background-color: indigo;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 29;
+            grid-row-end: 31;
+    }
+.grid_c33
+    {
+        background-color: brown;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 29;
+            grid-row-end: 31;
+    }
+.grid_c34
+    {
+        background-color: violet;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 31;
+            grid-row-end: 33;
+    }
+           
+    .grid_p>div>img
+        {
+            width: 100%;
+            height: 100%;
+        }
